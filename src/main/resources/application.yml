@@ -1,0 +1,7 @@
+claude:
+  api:
+    key: ${ANTHROPIC_API_KEY}   # set as env var, never hardcode
+    url: https://api.anthropic.com/v1/messages
+    model: claude-sonnet-5
+    version: 2023-06-01
+    default-system-prompt: "You are a helpful assistant."
